@@ -1,0 +1,26 @@
+.bgimage{
+  background-color: #093545;
+  padding: 50px;
+  padding-top: 130px;
+  padding-bottom: 130px;
+  border-top-right-radius: 90px; 
+  border-bottom-right-radius: 90px; 
+}
+.color{
+  color: #093545;
+}
+.bginput{
+    background-color: #093545;
+    border: none;
+
+}
+.bgbutton{
+  background-color: #20DF7F;
+  border: none;
+}
+input::placeholder{
+  color: white;
+}
+.bgsidebar{
+    background-color: #093545;
+}
