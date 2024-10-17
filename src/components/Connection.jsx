@@ -14,7 +14,6 @@ class Connection extends React.Component {
             </div>
             <div className="col-12 col-md-8">
               <h1 className="color text-center display-4 fw-bold mt-5 mb-5">Bienvenue sur Bakéli-tontine</h1>
-                <h1>essay</h1>
               <LoginForm />
             </div>
           </div>

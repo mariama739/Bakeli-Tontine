@@ -16,7 +16,7 @@ class App extends Component {
         <div >
           <div>
             <Routes>
-              <Route path="/connection" element={<Connection />} />
+              <Route path="/" element={<Connection />} />
               <Route path="/inscription" element={<Inscription />} />
               <Route path="/accueil" element={<Accueil />} />
               <Route path="/dashboard" element={<Dashboard />} />
