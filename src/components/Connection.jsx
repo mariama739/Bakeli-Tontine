@@ -10,7 +10,7 @@ class Connection extends React.Component {
         <div className="container-fluid">
           <div className="row">
             <div className="col-12 col-md-4 bgimage">
-              <img src={image} alt="Logo" width="400" />
+              <img src={image} alt="Logo" width="400"/>
             </div>
             <div className="col-12 col-md-8">
               <h1 className="color text-center display-4 fw-bold mt-5 mb-5">Bienvenue sur Bakéli-tontine</h1>

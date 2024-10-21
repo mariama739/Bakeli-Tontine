@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Sidebar from "./Sidebar";
 import Navbar from "./Navbar";
+import Dashboard from "./Dashboard";
 
 class Acceuil extends Component {
   render() {
@@ -13,6 +14,10 @@ class Acceuil extends Component {
             </div>
             <div className="col-12 col-md-10">
               <Navbar />
+              <div className="content">
+                <Dashboard />
+              </div>
+          
             </div>
           </div>
         </div>

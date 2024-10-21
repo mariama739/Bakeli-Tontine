@@ -1,7 +1,7 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, { Component } from "react";
-import Connection from "./components/Connection";
+import Connection from "./components/connection";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Inscription from "./components/Inscription";
 import Accueil from "./components/Accueil";

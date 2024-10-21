@@ -1,9 +1,7 @@
-
 import React from "react";
-import TableDashboard from "./tableaux";
-import TableDashboardprogress from "./TableauxProgress";
+import CotisationTable from "./CotisationTab";
 
-class Dashboard extends React.Component {
+class CotisationCard extends React.Component {
   render() {
     // Exemple de données pour les cotisations
     const cotisations = [
@@ -14,7 +12,7 @@ class Dashboard extends React.Component {
     return (
       <div>
         <div className="container">
-          <div className="row">
+          <div className="row d-flex justify-content-center">
             {cotisations.map((c, index) => (
               <div key={index} className="col-12 col-md-3">
                 <div className="card mb-4 shadow">
@@ -26,11 +24,11 @@ class Dashboard extends React.Component {
                 </div>
               </div>
             ))}
-            <div className="col-12 col-md-6">
+            <div className="col-12 col-md-3">
               <div className="card mb-4 shadow p-2">
                 <div className="card-body">
-                  <p className="card-title">Caisse</p>
-                  <p>3.500.000 FCFA / 5.000.000 FCFA</p>
+                  <p className="card-title">Total Caise</p>
+                  <h4>3.500.000 FCFA</h4>
                   <div
                     className="progress"
                     role="progressbar"
@@ -42,7 +40,7 @@ class Dashboard extends React.Component {
                     <div
                       className="progress-bar bg-success"
                       style={{
-                        width: "45%",
+                        width: "75%",
                       }}
                     ></div>
                   </div>
@@ -54,11 +52,8 @@ class Dashboard extends React.Component {
 
         <div className="container-fluid">
           <div className="row">
-            <div className="col-12 col-md-7">
-              <TableDashboard />
-            </div>
-            <div className="col-12 col-md-5">
-              <TableDashboardprogress />
+            <div className="col-12">
+              <CotisationTable />
             </div>
           </div>
         </div>
@@ -68,5 +63,4 @@ class Dashboard extends React.Component {
   }
 }
 
-
-export default Dashboard;
+export default CotisationCard;

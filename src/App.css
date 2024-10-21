@@ -24,3 +24,16 @@ input::placeholder{
 .bgsidebar{
     background-color: #093545;
 }
+.navbar{
+  width: 83%;
+  margin-left: -10px;
+}
+.font{
+  font-size: 10px;
+}
+.content{
+  padding-top: 90px;
+}
+.bgvert{
+    background-color: #20DF7F !important;
+}

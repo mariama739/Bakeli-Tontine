@@ -103,7 +103,7 @@ class LoginForm extends React.Component {
           className="rounded-3 fw-bold bgbutton"
           style={{ width: "100%", padding: "8px", marginBottom: "10px" }}
         >
-          Connexion
+          <Link to="/accueil">Connexion</Link>
         </button>
 
         {/* Lien vers la page d'inscription */}

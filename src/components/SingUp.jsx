@@ -118,14 +118,14 @@ class SingUp extends React.Component {
               className="rounded-3 fw-bold bgbutton "
               style={{ width: "40%", padding: "8px", marginBottom: "10px" }}
             >
-              S'inscrire
+              <Link to="/">S'inscrire</Link>
             </button>
           </div>
 
           <div style={{ marginTop: "10px" }}>
             <span className="d-flex justify-content-center">
               Vous avez dèja un compte ?{" "}
-              <Link to="/connection">
+              <Link to="/">
                 <b>Connectez-Vous</b>
               </Link>
             </span>
